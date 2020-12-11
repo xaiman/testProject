@@ -1,0 +1,11 @@
+server:
+  port: 17654
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crmdata
+    username: super
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
