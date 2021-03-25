@@ -1,0 +1,3 @@
+[submodule "MonitoringApplication"]
+	path = MonitoringApplication
+	url = https://github.com/xaiman/MonitoringApplication.git
