@@ -8,6 +8,7 @@ import ru.test.service.TestService;
 import java.sql.SQLException;
 
 @RestController
+//localhost:port/test
 @RequestMapping("/test")
 @Slf4j
 public class TestController {
@@ -18,6 +19,9 @@ public class TestController {
 
     private final TestService testService;
 
+    //localhost:port/test/stringTest/123
+    //123 - path
+    //GET method
     @RequestMapping(value = "/stringTest/{path}", method = RequestMethod.GET)
     public String testRest(@PathVariable(name = "path") String path) {
         return testService.firstTestService(path);

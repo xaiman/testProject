@@ -1,0 +1,7 @@
+ru\test\repository\TestRepository.class
+ru\test\service\TestService.class
+ru\test\service\impl\TestServiceImpl.class
+ru\test\controller\TestController.class
+ru\test\model\TestModel.class
+ru\test\exception\TestException.class
+ru\test\TestApplication.class
